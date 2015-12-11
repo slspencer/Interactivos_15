@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.2.1</version>
+    <unit>cm</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements/>
+    <increments/>
+    <draw name="Elisabeths_Polaina">
+        <calculation>
+            <point type="single" x="7.3236" y="-5.01988" id="1" name="p1" mx="0.132292" my="0.264583"/>
+            <point type="endLine" typeLine="hair" id="2" name="A1" basePoint="1" mx="0.132292" lineColor="black" my="0.264583" angle="0" length="11.49"/>
+            <point type="endLine" typeLine="hair" id="3" name="p2" basePoint="2" mx="-0.529468" lineColor="black" my="-2.05158" angle="0" length="7.78"/>
+            <point type="endLine" typeLine="hair" id="4" name="p3" basePoint="3" mx="-0.639762" lineColor="black" my="-2.49275" angle="0" length="8.91"/>
+            <point type="endLine" typeLine="hair" id="5" name="p4" basePoint="4" mx="0.132292" lineColor="black" my="0.264583" angle="0" length="11.68"/>
+            <point type="normal" typeLine="hair" id="6" name="A" firstPoint="1" secondPoint="5" mx="0.132292" lineColor="black" my="0.264583" angle="180" length="3.02"/>
+            <point type="endLine" typeLine="hair" id="7" name="p5" basePoint="6" mx="0.132292" lineColor="black" my="0.264583" angle="270" length="26.44"/>
+            <point type="normal" typeLine="hair" id="8" name="p6" firstPoint="7" secondPoint="6" mx="0.132292" lineColor="black" my="0.264583" angle="180" length="3.1"/>
+            <point type="endLine" typeLine="hair" id="9" name="A6" basePoint="8" mx="0.132292" lineColor="black" my="0.264583" angle="0" length="9.26"/>
+            <point type="endLine" typeLine="hair" id="10" name="p7" basePoint="9" mx="0.132292" lineColor="black" my="0.264583" angle="0" length="10.43"/>
+            <point type="endLine" typeLine="hair" id="11" name="p8" basePoint="10" mx="0.132292" lineColor="black" my="0.264583" angle="0" length="5.7"/>
+            <point type="endLine" typeLine="hair" id="12" name="p9" basePoint="11" mx="-0.639766" lineColor="black" my="0.374876" angle="0" length="9.4"/>
+            <point type="endLine" typeLine="hair" id="13" name="p10" basePoint="12" mx="0.240174" lineColor="black" my="0.0898974" angle="0" length="1.52"/>
+            <point type="normal" typeLine="hair" id="14" name="A10" firstPoint="13" secondPoint="7" mx="0.572377" lineColor="black" my="-1.4281" angle="180" length="5.73"/>
+            <point type="endLine" typeLine="hair" id="15" name="A9" basePoint="12" mx="-1.51123" lineColor="black" my="-1.87194" angle="90" length="5.53"/>
+            <point type="endLine" typeLine="hair" id="16" name="A8" basePoint="11" mx="0.132292" lineColor="black" my="0.264583" angle="90" length="6.83"/>
+            <point type="endLine" typeLine="hair" id="17" name="A7" basePoint="10" mx="0.132292" lineColor="black" my="0.264583" angle="90" length="4.4"/>
+            <point type="endLine" typeLine="hair" id="18" name="A5" basePoint="8" mx="0.132292" lineColor="black" my="0.264583" angle="90" length="2.51"/>
+            <point type="endLine" typeLine="hair" id="19" name="A2" basePoint="3" mx="0.132292" lineColor="black" my="0.264583" angle="270" length="1.12"/>
+            <point type="endLine" typeLine="hair" id="20" name="A3" basePoint="4" mx="0.132292" lineColor="black" my="0.264583" angle="270" length="2.68"/>
+            <point type="endLine" typeLine="hair" id="21" name="A4" basePoint="5" mx="0.132292" lineColor="black" my="0.264583" angle="270" length="2.65"/>
+            <line typeLine="hair" id="22" firstPoint="6" secondPoint="18" lineColor="black"/>
+            <line typeLine="hair" id="23" firstPoint="21" secondPoint="14" lineColor="black"/>
+            <spline type="path" id="24" kCurve="1" color="black">
+                <pathPoint kAsm1="1" kAsm2="0.464659" pSpline="6" angle="24.8105"/>
+                <pathPoint kAsm1="1.09001" kAsm2="1" pSpline="2" angle="359.158"/>
+                <pathPoint kAsm1="1" kAsm2="1" pSpline="19" angle="343.993"/>
+                <pathPoint kAsm1="1" kAsm2="1" pSpline="20" angle="356.413"/>
+                <pathPoint kAsm1="0.84936" kAsm2="1" pSpline="21" angle="3.09083"/>
+            </spline>
+            <spline type="path" id="25" kCurve="1" color="black">
+                <pathPoint kAsm1="1" kAsm2="0.694575" pSpline="14" angle="186.041"/>
+                <pathPoint kAsm1="1" kAsm2="0.680361" pSpline="15" angle="180.436"/>
+                <pathPoint kAsm1="0.885281" kAsm2="1" pSpline="16" angle="184.432"/>
+                <pathPoint kAsm1="1" kAsm2="1" pSpline="17" angle="210.489"/>
+                <pathPoint kAsm1="1" kAsm2="0.990681" pSpline="9" angle="181.302"/>
+                <pathPoint kAsm1="0.638076" kAsm2="1" pSpline="18" angle="137.742"/>
+            </spline>
+        </calculation>
+        <modeling>
+            <point type="modeling" id="26" idObject="6" mx="0.132292" my="0.264583"/>
+            <spline type="modelingPath" id="27" idObject="24"/>
+            <point type="modeling" id="28" idObject="21" mx="0.132292" my="0.264583"/>
+            <point type="modeling" id="29" idObject="14" mx="0.572377" my="-1.4281"/>
+            <spline type="modelingPath" id="30" idObject="25"/>
+            <point type="modeling" id="31" idObject="18" mx="0.132292" my="0.264583"/>
+        </modeling>
+        <details>
+            <detail closed="1" id="32" name="Detalle" supplement="1" mx="0" width="1" my="0">
+                <node type="NodePoint" nodeType="Contour" idObject="26" mx="0" my="0"/>
+                <node type="NodeSplinePath" reverse="0" nodeType="Contour" idObject="27" mx="0" my="0"/>
+                <node type="NodePoint" nodeType="Contour" idObject="28" mx="0" my="0"/>
+                <node type="NodePoint" nodeType="Contour" idObject="29" mx="0" my="0"/>
+                <node type="NodeSplinePath" reverse="0" nodeType="Contour" idObject="30" mx="0" my="0"/>
+                <node type="NodePoint" nodeType="Contour" idObject="31" mx="0" my="0"/>
+            </detail>
+        </details>
+    </draw>
+</pattern>
